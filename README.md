@@ -3,6 +3,6 @@
 Za prenos repozitorija uporabite ukaz
 
   ```
-  git clone https://fri-td.github.io/P2-201819/
+  git clone https://github.com/FRI-TD/P2-201819.git
   ```
 
