@@ -22,7 +22,9 @@ public class TestKodiranja {
     
     
     String odkodirano = Kodiranje.odkodiraj(kodirano);
-    System.out.println(odkodirano);    
+    System.out.println(odkodirano);  
+
+    System.out.println(Kodiranje.zamik);    
   }
 
 }

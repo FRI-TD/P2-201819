@@ -12,7 +12,12 @@ public class Kodiranje {
   
   static final int zamik = 3;
   
-  static String kodiraj(String niz) {
+  /**
+   * To je metoda za kodiranje znakov.
+   * @param niz Vhodni niz
+   * @return Vrne kodirano besedilo
+   */
+  public static String kodiraj(String niz) {
     StringBuffer result = new StringBuffer();
     
     for (int i = 0; i < niz.length(); i++) {

@@ -8,7 +8,7 @@ public class Konstante {
   
   public static void main(String[] args) {
     char a = 'A';
-    char pi = '\u03c0'; // znak z Unicode kodo 0x03C0
+    char pi = '\u03c0';   // znak z Unicode kodo 0x03C0
     
     char crkaA = '\u0041';// znak z Unicode kodo 0x0041
     
