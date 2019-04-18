@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 /**
- *
+ * Primeri slabe kode, ki ste jo uporabili pri reševanju DN05. 
  * @author tomaz
  */
 public class DN05 {

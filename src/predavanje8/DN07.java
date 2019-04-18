@@ -2,6 +2,12 @@
 import java.awt.Color;
 import java.util.Random;
 
+
+
+/**
+ * Primeri slabe kode (in popravki), ki ste jo uporabili pri reševanju DN07. 
+ * @author tomaz
+ */
 public class DN07 {
 
   public static void main(String[] args) {
