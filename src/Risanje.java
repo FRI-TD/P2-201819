@@ -98,7 +98,7 @@ public class Risanje {
 
     for (int i = 0; i < W; i++) {
       double x = i * (x2 - x1) / (W - 1) + x1;
-      double y = Math.sin(x);
+      double y = Math.sin(x+0.5);
 
       int j = (int) ((H - 1) * (y - y1) / (y2 - y1));
       if (j >= 0 && j < H) {
@@ -270,12 +270,12 @@ public class Risanje {
     //izris2();
     //izris3();
 
-    //graf();
+    graf();
     //radar();
     //spirala();
     //nRoza(6);
     
-    ura();
+    //ura();
   }
 
 }
