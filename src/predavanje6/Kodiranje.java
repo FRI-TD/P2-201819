@@ -10,7 +10,7 @@ package predavanje6;
  */
 public class Kodiranje {
   
-  static final int zamik = 3;
+  public static final int zamik = 3;
   
   /**
    * To je metoda za kodiranje znakov.
