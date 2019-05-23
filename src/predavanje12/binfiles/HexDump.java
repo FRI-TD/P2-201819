@@ -1,4 +1,4 @@
-package predavanje12;
+package predavanje12.binfiles;
 
 import java.io.File;
 import java.io.FileInputStream;
