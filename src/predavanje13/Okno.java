@@ -5,7 +5,7 @@ import javax.swing.*;
 
 /**
  * Izdelava preprostega okna (JFrame).
- * Na okno dodamo eno samo komponento - uokvirjeno odlagalno površino (JPanel)
+ * Na okno dodamo eno samo komponento -  odlagalno površino (JPanel)
  * @author tomaz
  */
 public class Okno {
@@ -20,9 +20,9 @@ public class Okno {
     JPanel p = new JPanel();
     // ... obarvam rumeno ...
     p.setBackground(Color.yellow);        
-    // ... jo oukvirim ...
+    // ... ji dodam okvir ...
     p.setBorder(BorderFactory.createTitledBorder("Naslov okvirja"));
-    // ... in dodam na formo
+    // ... in jo dodam na formo
     okno.add(p);
        
     okno.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
